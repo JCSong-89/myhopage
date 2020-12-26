@@ -1,4 +1,3 @@
-const fs = require("fs");
 require("dotenv").config(); // Loads environment variables from a .env file into process.env
 
 module.exports = {

@@ -14,5 +14,17 @@
     "incremental": true,
     "esModuleInterop": true,
     "moduleResolution": "node"
-  }
+  },
+  "include": [
+    "src/*.ts",
+    "src/**/*.ts",
+    "src/**/**/*.ts",
+    "src/**/*.controller",
+    "src/**/**/*.controller",
+    "src/**/*.entity",
+    "src/**/**/*.entity",
+    "src/**/*.service.ts",
+    "src/**/**/*.service.ts"
+  ],
+  "exclude": ["node_modules"]
 }

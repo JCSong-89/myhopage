@@ -14,7 +14,7 @@ exports.connection = connectionManager.create({
     charset: "utf8mb4_unicode_ci",
     timezone: "+09:00",
     synchronize: false,
-    entities: ["src/**/*.entity{.ts,.js}"],
+    entities: [`${__dirname}/../**/*.entity.{ts,js}`],
     logging: true,
 });
 //# sourceMappingURL=dbconnect.js.map
