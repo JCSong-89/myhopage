@@ -1,11 +1,11 @@
 import bodyParser from "body-parser";
 import { Express } from "express";
 
-import blogLog from "./board/blogLog.contoller";
-import comment from "./comment/comment.contoller";
-import project from "./board/project.contoller";
-import skillLog from "./board/skillLog.contoller";
-import sendEmail from "./emailSend.contoller";
+import blogLog from "./board/blogLog.controller";
+import comment from "./comment/comment.controller";
+import project from "./board/project.controller";
+import skillLog from "./board/skillLog.controller";
+import sendEmail from "./emailSend.controller";
 
 export class Routers {
   constructor(App: Express) {

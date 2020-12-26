@@ -17,6 +17,8 @@ export class Board {
   @Column({ type: "longtext" })
   content!: boolean;
 
-  @ManyToOne(() => Category, (catetory) => catetory.board, { primary: true })
+  @ManyToOne(() => Category, (catetory) => catetory.board, {
+    primary: true,
+  })
   category!: Category;
 }
