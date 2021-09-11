@@ -6,7 +6,7 @@ const connectionManager = getConnectionManager();
 export const connection = connectionManager.create({
   type: "mysql",
   host: config.TYPEORM_HOST,
-  port: 3306,
+  port: config.DOCKER_SQL_PORT,
   username: config.TYPEORM_USERNAME,
   password: config.TYPEORM_PASSWORD,
   database: config.TYPEORM_DATABASE,

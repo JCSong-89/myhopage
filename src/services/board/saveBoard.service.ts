@@ -1,8 +1,8 @@
-import { Board } from "../../../entity/board.entity";
+import { Board } from "../../entity/board.entity";
 import { getManager, getConnection } from "typeorm";
 import { Request, Response } from "express";
-import { Category } from "../../../entity/catetory.entity";
-import { connection } from "../../../loaders/dbconnect";
+import { Category } from "../../entity/catetory.entity";
+import { connection } from "../../loaders/dbconnect";
 
 export default async (req: Request, res: Response) => {
   const { categoryId, title, content } = req.body;

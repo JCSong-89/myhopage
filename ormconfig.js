@@ -1,12 +1,13 @@
-require("dotenv").config(); // Loads environment variables from a .env file into process.env
+const fs = require("fs");
+require("dotenv").config();
 
-module.exports = {
+const development = {
   type: "mysql",
-  host: process.env.TYPEORM_HOST,
-  port: 3306,
-  username: process.env.TYPEORM_USERNAME,
-  password: process.env.TYPEORM_PASSWORD,
-  database: process.env.TYPEORM_DATABASE,
+  host: process.env.MYSQL_HOST,
+  port: process.env.MYSQL_PORT,
+  username: process.env.MYSQL_USERNAME,
+  password: process.env.MYSQL_PASSWORD,
+  database: process.env.MYSQL_DATABASE,
   charset: "utf8mb4_unicode_ci",
   timezone: "+09:00",
   synchronize: false,
@@ -18,3 +19,5 @@ module.exports = {
   },
   logging: true,
 };
+
+module.exports = development;
