@@ -13,6 +13,7 @@ class ConfigServer {
         this.TYPEORM_PASSWORD = process.env.TYPEORM_PASSWORD;
         this.TYPEORM_DATABASE = process.env.TYPEORM_DATABASE;
         this.SERVER_PORT = process.env.SERVER_PORT || 3000;
+        this.DOCKER_SQL_PORT = process.env.DOCKER_SQL_PORT || 10510;
     }
 }
 exports.config = new ConfigServer();

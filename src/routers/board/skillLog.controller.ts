@@ -11,4 +11,5 @@ router.put("/:id", updateSkillLog);
 router.delete("/:id", deleteSkillLog);
 router.delete("/:ids", deleteSelectBlogLog);
 */
+
 export default router;

@@ -3,6 +3,7 @@ declare class ConfigServer {
     TYPEORM_USERNAME: string;
     TYPEORM_PASSWORD: string;
     TYPEORM_DATABASE: string;
+    DOCKER_SQL_PORT: number;
     SERVER_PORT: number;
     constructor();
 }

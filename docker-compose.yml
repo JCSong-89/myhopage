@@ -1,0 +1,24 @@
+version: "3"
+
+services:
+  mysql:
+    image: mysql:5.7
+    container_name: homepage-mysql
+    restart: always
+    ports:
+      - 20510:3306
+    environment:
+      TZ: Asia/Seoul
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: homeDB
+      MYSQL_USER: home
+      MYSQL_PASSWORD: home
+    command:
+      - --character-set-server=utf8mb4
+      - --collation-server=utf8mb4_unicode_ci
+      - --skip-character-set-client-handshake
+    volumes:
+      - homepage-mysql:/var/lib/mysql
+
+volumes:
+  homepage-mysql:

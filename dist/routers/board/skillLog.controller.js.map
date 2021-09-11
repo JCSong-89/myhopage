@@ -1,1 +1,1 @@
-{"version":3,"file":"skillLog.controller.js","sourceRoot":"","sources":["../../../src/routers/board/skillLog.controller.ts"],"names":[],"mappings":";;;;;AAAA,qCAAiC;AACjC,8GAA8E;AAC9E,MAAM,MAAM,GAAG,gBAAM,EAAE,CAAC;AAExB,MAAM,CAAC,IAAI,CAAC,GAAG,EAAE,8BAAY,CAAC,CAAC;AAS/B,kBAAe,MAAM,CAAC"}
+{"version":3,"file":"skillLog.controller.js","sourceRoot":"","sources":["../../../src/routers/board/skillLog.controller.ts"],"names":[],"mappings":";;;;;AAAA,qCAAiC;AACjC,8GAA8E;AAC9E,MAAM,MAAM,GAAG,gBAAM,EAAE,CAAC;AAExB,MAAM,CAAC,IAAI,CAAC,GAAG,EAAE,8BAAY,CAAC,CAAC;AAU/B,kBAAe,MAAM,CAAC"}
